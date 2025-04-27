@@ -1,0 +1,13 @@
+class Pr_01
+{
+    public static void main(String args[])
+    {
+        float arr[]={2.3f,3.4f,23.1f,2.7f,4.5f};
+        float sum=0f;
+        for(int i=0;i<arr.length;i++)
+        {
+            sum=sum+arr[i];
+        }
+        System.out.println(sum);
+    }
+}
